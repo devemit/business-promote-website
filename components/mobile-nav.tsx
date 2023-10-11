@@ -5,13 +5,13 @@ import { Button } from './ui/button';
 
 export default function MobileNavbar({ handleToggle, toggleNav }: Props) {
    return (
-      <section className='cursor-pointer md:hidden'>
+      <section className='cursor-pointer md:hidden z-10'>
          <div onClick={handleToggle}>{toggleNav ? null : <HiOutlineMenuAlt4 size={22} />}</div>
          <ul
             className={
                toggleNav
-                  ? 'fixed px-10 bg-white top-0 left-0 flex gap-2 flex-col shadow-xl w-[100%] h-[35%] ease-in-out duration-1000  pt-24'
-                  : 'fixed px-10 bg-white top-[-100%] left-0 flex flex-col w-[100%] h-[35%] ease-in-out duration-1000 pt-24'
+                  ? 'fixed px-10 bg-white top-0 left-0 flex gap-2 flex-col shadow-xl w-[100%] h-[45%] ease-in-out duration-1000  pt-24'
+                  : 'fixed px-10 bg-white top-[-100%] left-0 flex flex-col w-[100%] h-[45%] ease-in-out duration-1000 pt-24'
             }
          >
             {pages.map((page) => {

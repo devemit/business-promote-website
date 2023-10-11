@@ -12,7 +12,7 @@ export default function Navbar() {
 
    return (
       <nav className='flex justify-between items-center h-20 shadow-lg px-10'>
-         <div className='text-2xl font-bold z-10'>LOGO</div>
+         <div className='text-2xl font-bold z-20'>LOGO</div>
          <MobileNavbar handleToggle={handleToggle} toggleNav={toggleNav} />
          <ul className='md:flex hidden gap-4'>
             {pages.map((page, index) => {
