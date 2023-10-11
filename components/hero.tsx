@@ -13,7 +13,7 @@ export default function Hero() {
                integrity, as these values shape our employees and the quality of our work.
             </p>
             <h3 className='pt-4 lg:pt-6 text-medium lg:text-lg'>
-               Ready to <span className='italic font-semibold '>"Let the Light in?"</span>
+               Ready to <span className='italic font-semibold '>Let the Light in?</span>
             </h3>
             <div className='pt-4 lg:pt-6'>
                <Button variant={'default'}>Contact Us</Button>
