@@ -3,7 +3,7 @@ import Card from './card-showcase';
 export default function About() {
    return (
       <main className='p-8 lg:p-24'>
-         <div className='two md:flex justify-evenly items-center'>
+         <div className='md:flex justify-center items-center'>
             <Card
                title='Commercial Construction'
                description='We service commercial building needing various glass and glazing needs'
@@ -19,14 +19,7 @@ export default function About() {
                }
             />
          </div>
-         <div className='three md:flex max-w-7xl mx-auto'>
-            <Card
-               title='Curtain Wall Systems'
-               description='We service commercial building needing various glass and glazing needs'
-               image={
-                  'https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
-               }
-            />
+         <div className='md:flex max-w-[69rem] mx-auto'>
             <Card
                title='Windows'
                description='We service commercial building needing various glass and glazing needs'
