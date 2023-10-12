@@ -9,7 +9,7 @@ export default function Card({ title, description, image }: CardProps) {
          </div>
          <div className='bg-slate-100 p-1'>
             <h3 className='text-xl py-1 font-semibold'>{title}</h3>
-            <p className='text-slate-600'>{description}</p>
+            <p className='text-slate-600 text-sm'>{description}</p>
          </div>
       </div>
    );

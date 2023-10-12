@@ -2,7 +2,7 @@ import Card from './card-showcase';
 
 export default function About() {
    return (
-      <main className='p-8 lg:p-24'>
+      <main className='p-8 lg:p-24 '>
          <div className='md:flex justify-center items-center'>
             <Card
                title='Commercial Construction'
