@@ -7,3 +7,8 @@ export interface Props {
     description:string;
     image:string;
   }
+  export interface ContactCardProps {
+    title:string;
+    description:string;
+    hours?:string;
+  }

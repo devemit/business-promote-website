@@ -3,19 +3,31 @@ import Card from './card-showcase';
 export default function About() {
    return (
       <main className='p-8 lg:p-24 '>
+         <div className='info text-center flex flex-col gap-y-4'>
+            <h1 className='font-semibold text-xl lg:text-2xl'>About Our Services</h1>
+            <p className='text-slate-600 text-sm max-w-xl mx-auto'>
+               Glass & Glazing is a family-owned business, operating in Macedonia.In our years of
+               operation, we have provided quality services to our customers, and we pride ourselves
+               on dependability, productivity, and profesionalism as we provide our services to our
+               customers.
+            </p>
+            <p className='text-slate-600 text-sm'>
+               We do both <strong>commercial</strong> and <strong>residential </strong>buildings.
+            </p>
+         </div>
          <div className='md:flex justify-center items-center'>
-            <Card
-               title='Commercial Construction'
-               description='We service commercial building needing various glass and glazing needs.'
-               image={
-                  'https://images.unsplash.com/photo-1494884113216-952a0c2c1a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
-               }
-            />
             <Card
                title='Residental Buildings'
                description='We service commercial building needing various glass and glazing needs.'
                image={
                   'https://images.unsplash.com/photo-1640113036738-02909e67ff61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+               }
+            />
+            <Card
+               title='Commercial Construction'
+               description='We service commercial building needing various glass and glazing needs.'
+               image={
+                  'https://images.unsplash.com/photo-1494884113216-952a0c2c1a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
                }
             />
          </div>
