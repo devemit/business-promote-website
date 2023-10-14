@@ -1,6 +1,7 @@
 export interface Props {
     toggleNav: boolean;
     handleToggle: () => void;
+    closeMobileNav:() => void
   }
   export interface CardProps {
     title:string;

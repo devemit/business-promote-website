@@ -3,7 +3,10 @@ import { Button } from './ui/button';
 
 export default function Hero() {
    return (
-      <div className='gap-y-4 h-full w-[100%] lg:p-24 p-8 mx-auto lg:flex gap-4 '>
+      <div
+         id='Home'
+         className=' bg-slate-100 gap-y-4 h-full w-[100%] lg:p-24 p-8 mx-auto lg:flex gap-4 '
+      >
          <div className='left-side flex-1 lg:pt-6 max-w-5xl'>
             <h1 className='text-2xl md:text-3xl lg:text-6xl text-slate-900 font-semibold'>
                Glass Installation in Macedonia.
@@ -25,7 +28,7 @@ export default function Hero() {
                   src='https://images.unsplash.com/photo-1494884113216-952a0c2c1a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
                   alt='glass-building'
                   fill
-                  className='bg-cover pt-4'
+                  className='pt-6'
                />
             </div>
             <p className='text-center italic text-medium lg:text-lg pt-4'>

@@ -2,7 +2,9 @@ import Image from 'next/image';
 export default function Gallery() {
    return (
       <>
-         <h1 className='pt-10 font-semibold text-2xl lg:text-3xl text-center p-4'>Our Work</h1>
+         <h1 id='Gallery' className='pt-10 font-semibold text-2xl lg:text-3xl text-center p-4'>
+            Our Work
+         </h1>
          <div className='grid p-8 lg:p-24 grid-cols-2 md:grid-cols-4 gap-4'>
             <div className='grid gap-4'>
                <div>

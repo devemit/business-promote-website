@@ -1,9 +1,9 @@
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
-import { pages } from '@/lib/utils';
 import { Props } from '@/types';
 import { Button } from './ui/button';
+import { Link } from 'react-scroll';
 
-export default function MobileNavbar({ handleToggle, toggleNav }: Props) {
+export default function MobileNavbar({ handleToggle, toggleNav, closeMobileNav }: Props) {
    return (
       <section className='cursor-pointer md:hidden z-10'>
          <div onClick={handleToggle}>{toggleNav ? null : <HiOutlineMenuAlt4 size={22} />}</div>
@@ -14,13 +14,61 @@ export default function MobileNavbar({ handleToggle, toggleNav }: Props) {
                   : 'fixed px-10 bg-white top-[-100%] left-0 flex flex-col w-[100%] h-[50%] ease-in-out duration-1000 pt-24'
             }
          >
-            {pages.map((page) => {
-               return (
-                  <>
-                     <li className='text-sm text-slate-600 border-b border-slate-200'>{page}</li>
-                  </>
-               );
-            })}
+            <Link
+               onClick={closeMobileNav}
+               className='cursor-pointer'
+               to='Home'
+               spy={true}
+               smooth={true}
+               offset={10}
+               duration={300}
+            >
+               Home
+            </Link>
+            <Link
+               onClick={closeMobileNav}
+               className='cursor-pointer'
+               to='About'
+               spy={true}
+               smooth={true}
+               offset={50}
+               duration={300}
+            >
+               About
+            </Link>
+            <Link
+               onClick={closeMobileNav}
+               className='cursor-pointer'
+               to='Contact'
+               spy={true}
+               smooth={true}
+               offset={20}
+               duration={300}
+            >
+               Contact
+            </Link>
+            <Link
+               onClick={closeMobileNav}
+               className='cursor-pointer'
+               to='Location'
+               spy={true}
+               smooth={true}
+               offset={-10}
+               duration={300}
+            >
+               Location
+            </Link>
+            <Link
+               onClick={closeMobileNav}
+               className='cursor-pointer'
+               to='Gallery'
+               spy={true}
+               smooth={true}
+               offset={20}
+               duration={300}
+            >
+               Gallery
+            </Link>
             <Button variant={'secondary'} size={'sm'} onClick={handleToggle}>
                Close
             </Button>

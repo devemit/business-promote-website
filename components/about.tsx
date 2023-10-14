@@ -2,9 +2,9 @@ import Card from './card-showcase';
 
 export default function About() {
    return (
-      <main className='p-8 lg:p-24 '>
+      <main id='About' className='p-8 lg:p-24 '>
          <div className='info text-center flex flex-col gap-y-4'>
-            <h1 className='font-semibold text-xl lg:text-2xl'>About Our Services</h1>
+            <h1 className='font-semibold text-2xl lg:text-3xl'>About Our Services</h1>
             <p className='text-slate-600 text-sm max-w-xl mx-auto'>
                Glass & Glazing is a family-owned business, operating in Macedonia.In our years of
                operation, we have provided quality services to our customers, and we pride ourselves
