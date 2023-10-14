@@ -5,7 +5,7 @@ export default function Hero() {
    return (
       <div
          id='Home'
-         className=' bg-slate-100 gap-y-4 h-full w-[100%] lg:p-24 p-8 mx-auto lg:flex gap-4 '
+         className=' bg-slate-100 gap-y-4 h-full w-[100%] lg:p-24 p-8 pt-28 mx-auto lg:flex gap-4 '
       >
          <div className='left-side flex-1 lg:pt-6 max-w-5xl'>
             <h1 className='text-2xl md:text-3xl lg:text-6xl text-slate-900 font-semibold'>
