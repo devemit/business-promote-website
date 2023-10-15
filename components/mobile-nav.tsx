@@ -31,7 +31,7 @@ export default function MobileNavbar({ handleToggle, toggleNav, closeMobileNav }
                to='About'
                spy={true}
                smooth={true}
-               offset={50}
+               offset={-50}
                duration={300}
             >
                About
@@ -42,7 +42,7 @@ export default function MobileNavbar({ handleToggle, toggleNav, closeMobileNav }
                to='Contact'
                spy={true}
                smooth={true}
-               offset={20}
+               offset={-60}
                duration={300}
             >
                Contact
@@ -53,7 +53,7 @@ export default function MobileNavbar({ handleToggle, toggleNav, closeMobileNav }
                to='Location'
                spy={true}
                smooth={true}
-               offset={-10}
+               offset={-80}
                duration={300}
             >
                Location
@@ -64,7 +64,7 @@ export default function MobileNavbar({ handleToggle, toggleNav, closeMobileNav }
                to='Gallery'
                spy={true}
                smooth={true}
-               offset={20}
+               offset={-60}
                duration={300}
             >
                Gallery

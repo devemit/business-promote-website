@@ -1,6 +1,7 @@
+'use client';
 import Image from 'next/image';
 import { Button } from './ui/button';
-
+import { Link } from 'react-scroll';
 export default function Hero() {
    return (
       <div
@@ -19,7 +20,9 @@ export default function Hero() {
                Ready to <span className='italic font-semibold '>Let the Light in?</span>
             </h3>
             <div className='pt-4 lg:pt-6'>
-               <Button variant={'default'}>Contact Us</Button>
+               <Link to='Contact' spy={true} smooth={true} offset={-60} duration={300}>
+                  <Button variant={'default'}>Contact Us</Button>
+               </Link>
             </div>
          </div>
          <div className='right-side flex-1'>

@@ -1,4 +1,12 @@
 import Image from 'next/image';
+import imgone from '../public/photo-1495714096525-285e85481946.avif';
+import imgtwo from '../public/photo-1515449634394-7f0f1d7d6543.avif';
+import imgthree from '../public/photo-1537301636683-5ac98e0466a2.avif';
+import imgfour from '../public/photo-1559219432-1962fcaa2752.avif';
+import imgfive from '../public/photo-1597242261552-e4bfc7618aea.avif';
+import imgsix from '../public/photo-1600573472591-ee6b68d14c68.avif';
+import imgsev from '../public/photo-1620641621506-5e8cc7cb5656.avif';
+import imgeig from '../public/photo-1579424098101-7249e9009151.avif';
 export default function Gallery() {
    return (
       <>
@@ -10,7 +18,7 @@ export default function Gallery() {
                <div>
                   <Image
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg'
+                     src={imgone}
                      alt=''
                      width={300}
                      height={300}
@@ -21,7 +29,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg'
+                     src={imgtwo}
                      alt=''
                   />
                </div>
@@ -30,36 +38,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg'
-                     alt=''
-                  />
-               </div>
-            </div>
-            <div className='grid gap-4'>
-               <div>
-                  <Image
-                     width={300}
-                     height={300}
-                     className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg'
-                     alt=''
-                  />
-               </div>
-               <div>
-                  <Image
-                     width={300}
-                     height={300}
-                     className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg'
-                     alt=''
-                  />
-               </div>
-               <div>
-                  <Image
-                     width={300}
-                     height={300}
-                     className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg'
+                     src={imgsev}
                      alt=''
                   />
                </div>
@@ -70,7 +49,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg'
+                     src={imgfour}
                      alt=''
                   />
                </div>
@@ -79,7 +58,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg'
+                     src={imgfive}
                      alt=''
                   />
                </div>
@@ -88,7 +67,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg'
+                     src={imgthree}
                      alt=''
                   />
                </div>
@@ -99,7 +78,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg'
+                     src={imgone}
                      alt=''
                   />
                </div>
@@ -108,7 +87,7 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg'
+                     src={imgeig}
                      alt=''
                   />
                </div>
@@ -117,7 +96,36 @@ export default function Gallery() {
                      width={300}
                      height={300}
                      className='h-auto max-w-full rounded-lg'
-                     src='https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg'
+                     src={imgfour}
+                     alt=''
+                  />
+               </div>
+            </div>
+            <div className='grid gap-4'>
+               <div>
+                  <Image
+                     width={300}
+                     height={300}
+                     className='h-auto max-w-full rounded-lg'
+                     src={imgfive}
+                     alt=''
+                  />
+               </div>
+               <div>
+                  <Image
+                     width={300}
+                     height={300}
+                     className='h-auto max-w-full rounded-lg'
+                     src={imgsix}
+                     alt=''
+                  />
+               </div>
+               <div>
+                  <Image
+                     width={300}
+                     height={300}
+                     className='h-auto max-w-full rounded-lg'
+                     src={imgthree}
                      alt=''
                   />
                </div>

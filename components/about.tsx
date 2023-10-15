@@ -5,13 +5,13 @@ export default function About() {
       <main id='About' className='p-8 lg:p-24 '>
          <div className='info text-center flex flex-col gap-y-4'>
             <h1 className='font-semibold text-2xl lg:text-3xl'>About Our Services</h1>
-            <p className='text-slate-600 text-sm max-w-xl mx-auto'>
+            <p className='text-slate-600 text-sm lg:text-base max-w-xl mx-auto'>
                Glass & Glazing is a family-owned business, operating in Macedonia.In our years of
                operation, we have provided quality services to our customers, and we pride ourselves
                on dependability, productivity, and profesionalism as we provide our services to our
                customers.
             </p>
-            <p className='text-slate-600 text-sm'>
+            <p className='text-slate-600 text-sm lg:text-base'>
                We do both <strong>commercial</strong> and <strong>residential </strong>buildings.
             </p>
          </div>

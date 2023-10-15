@@ -38,7 +38,7 @@ export default function Navbar() {
                to='About'
                spy={true}
                smooth={true}
-               offset={50}
+               offset={10}
                duration={300}
             >
                About
@@ -48,7 +48,7 @@ export default function Navbar() {
                to='Contact'
                spy={true}
                smooth={true}
-               offset={20}
+               offset={-60}
                duration={300}
             >
                Contact
@@ -58,7 +58,7 @@ export default function Navbar() {
                to='Location'
                spy={true}
                smooth={true}
-               offset={-10}
+               offset={-80}
                duration={300}
             >
                Location
@@ -68,7 +68,7 @@ export default function Navbar() {
                to='Gallery'
                spy={true}
                smooth={true}
-               offset={20}
+               offset={-60}
                duration={300}
             >
                Gallery
